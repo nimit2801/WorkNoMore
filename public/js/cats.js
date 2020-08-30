@@ -1,4 +1,4 @@
-document.getElementById("iframe").style.display = "none";
+// document.getElementById("iframe").style.display = "none";
 
 function newVid() {
   var catArr = [

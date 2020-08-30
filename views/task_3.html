@@ -3,21 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Demo</title>
+    <title>Work No More</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/base.css" />
   </head>
-  <body>
-    <input type="text" name="iname" id="iname" />
-    <select name="selector" id="gender">
-      <option value="m">m</option>
-      <option value="f">f</option>
-    </select>
-    <button id="btn">Submit</button>
-    <br /><br /><br />
-    <a href="/"><button id="btn">Procastinate more</button></a>
-    <img src="" id="img" />
-    <a href="/">Home</a>
+  <body style="background-color:rgba(0,0,0,.4);"> 
+    
+    <nav class="navbar navbar-dark bg-dark">
+      <span class="navbar-brand mb-0 h1 center">Work No More</span>
+  </nav>
+   
+    <div class="container" style="text-align:center;">
+      <h1>Random Videos</h1>
+      <div class="row justify-content-center">
+        <div class="col-md-3">
+          
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" name="iname" id="iname" placeholder="Enter Name">
+            </div>
+            <div class="form-group">
+              <select name="selector" id="gender">
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+              </select>
+            </div>
+
+            <button  class="btn btn-primary" id="btn">Submit</button>
+          
+         
+         
+        </div>
+        <div class="col-md-6" id="nodis">
+              <!-- GIF IMAGE HERE -->
+              <img class="img-fluid" src="" id="img" />
+         </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <a href="/" class="btn btn-lg btn-primary" style="margin:10px">Random</a>
+        </div>
+      </div>
+  </div>    
+   
     <script src="js/bill.js" defer></script>
   </body>
 </html>

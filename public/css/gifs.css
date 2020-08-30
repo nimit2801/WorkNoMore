@@ -1,0 +1,16 @@
+
+.row{
+    margin:20px;
+}
+.gif-img{
+    width: 100%;
+    
+    border:5px solid ghostwhite;
+    border-radius: 5px;
+}
+.center{
+    margin: 0px auto;
+}
+input{
+    margin:10px;
+}

@@ -4,7 +4,7 @@
   "description": "This will randomly show web pages and you can have fun on them..xD",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
